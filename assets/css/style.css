@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
-  color: #707070;
+  color: #606060;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -69,14 +69,14 @@ body {
 }
 
 a {
-  color: #50a1ff;
+  color: inherit;
   -webkit-transition: 0.2s linear;
   transition: 0.2s linear;
 }
 
 a:hover,
 a:focus {
-  color: #50a1ff;
+  color: #0d0d0d;
   text-decoration: none;
   outline: none;
 }

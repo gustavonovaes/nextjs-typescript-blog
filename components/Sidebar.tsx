@@ -40,11 +40,11 @@ function Search({ search: initialSearch }: SearchProps) {
           padding: 0.5rem;
           font-size: 0.95rem;
           line-height: 1.9;
-          color: #656565;
+          color: #0d0d0d;
           text-align: left;
           font-weight: 300;
 
-          border: 1px solid #eaeff4;
+          border: 1px solid #eaeaea;
 
           position: relative;
           flex: 1 1 auto;
@@ -69,7 +69,7 @@ function Search({ search: initialSearch }: SearchProps) {
         }
 
         .input-search input::placeholder {
-          color: #999;
+          color: #606060;
         }
       `}</style>
     </>
@@ -200,7 +200,6 @@ function Sidebar({ search, categories, tags, topPosts }: SidebarProps) {
           margin-left: 0.25rem;
           margin-top: 0.25rem;
 
-          color: #656565;
           background-color: #e9ecf0;
         }
 
@@ -220,7 +219,6 @@ function Sidebar({ search, categories, tags, topPosts }: SidebarProps) {
         }
 
         .sidebar a {
-          color: #656565;
         }
       `}</style>
 
@@ -232,7 +230,6 @@ function Sidebar({ search, categories, tags, topPosts }: SidebarProps) {
           font-size: 0.85em;
           margin-bottom: 1rem;
           
-          color: #656565;
         }
       `}</style>
     </>

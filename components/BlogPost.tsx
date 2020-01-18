@@ -103,7 +103,7 @@ function BlogPost({ id, title, category, image }: Post) {
 
         .post-category {
           letter-spacing: 2px;
-          color: #677279;
+          color: #676767;
           font-size: 0.8em;
           text-transform: uppercase;
         }
@@ -113,9 +113,7 @@ function BlogPost({ id, title, category, image }: Post) {
           margin: 2rem 0 0;
           font-size: 1.15rem;
         }
-        .post-title a {
-          color: #191919;
-        }
+    
       `}</style>
     </>
   );
