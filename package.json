@@ -1,0 +1,27 @@
+{
+  "name": "next-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "disqus-react": "^1.0.7",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^9.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-icons": "^3.8.0",
+    "typescript": "^3.7.4"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "devDependencies": {
+    "@types/isomorphic-fetch": "^0.0.35",
+    "@types/jest": "^24.9.0",
+    "@types/node": "^13.1.7",
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4"
+  }
+}
